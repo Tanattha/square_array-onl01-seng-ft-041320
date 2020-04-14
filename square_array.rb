@@ -1,5 +1,5 @@
 def square_array(array)
   # your code here
   array.each |square|
-  square
+  square.map! {|num| num ** 2}
 end
